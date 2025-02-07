@@ -1,5 +1,5 @@
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.setFlag(SpriteFlag.Invisible, info.player2.hasLife())
+    mySprite.setFlag(SpriteFlag.Invisible, false)
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.setFlag(SpriteFlag.Invisible, true)
